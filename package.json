@@ -1,0 +1,26 @@
+{
+  "name": "is-mongo",
+  "version": "0.1.0",
+  "description": "Check if mongo db is running on port 27017",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:charliedowler/is-mongo.git"
+  },
+  "keywords": [
+    "database",
+    "mongo"
+  ],
+  "dependencies": {
+    "request": "~2.40.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-simple-mocha": "^0.4.0"
+  },
+  "author": "charliedowler",
+  "license": "MIT"
+}
