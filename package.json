@@ -14,6 +14,9 @@
     "database",
     "mongo"
   ],
+  "dependencies": {
+    "q": "~1.0.1"
+  },
   "devDependencies": {
     "grunt": "^0.4.2",
     "grunt-simple-mocha": "^0.4.0"
