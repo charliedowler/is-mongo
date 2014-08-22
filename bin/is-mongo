@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-require('../index')(function(running) {
-  console.log((running) ? 'running': 'not running');
+require('../index')(function(db) {
+  console.log((db.running) ? 'running': 'not running');
 });
