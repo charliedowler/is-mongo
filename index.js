@@ -1,7 +1,7 @@
 'use strict';
-var request = require('request');
+var exec = require('child_process').exec;
 module.exports = function (callback) {
-  request('http://localhost:27017', function(err, res, body) {
-    callback(/mongo/i.test(body));
+  exec('mongo --eval "printjson(db.serverStatus())"', function(err, stdout, stderr) {
+    callback((err) ? false : true);
   });
 };
