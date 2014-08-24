@@ -2,7 +2,7 @@
 
 > Check if a mongodb is running
 
-See the [db-type](https://github.com/charliedowler/db-type) module for more database types.
+See the [dbs](https://github.com/charliedowler/dbs) module for more database types.
 
 
 ## Install
