@@ -41,7 +41,7 @@ $ npm install -g is-mongo
 
 ```sh
 $ is-mongo
-#=> running
+#=> Up
 ```
 
 

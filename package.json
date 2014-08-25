@@ -15,7 +15,8 @@
     "mongo"
   ],
   "dependencies": {
-    "q": "~1.0.1"
+    "q": "~1.0.1",
+    "log-symbols": "~1.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.2",

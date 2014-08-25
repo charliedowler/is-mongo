@@ -1,5 +1,6 @@
 #!/usr/bin/env node
+var sym = require('log-symbols');
 
 require('../index')(function(db) {
-  console.log((db.running) ? 'running': 'not running');
+  console.log((db.running) ? sym.success + ' Up': sym.error + ' Down');
 });
