@@ -2,5 +2,6 @@
 var sym = require('log-symbols');
 
 require('../index')(function(db) {
-  console.log((db.running) ? sym.success + ' Up': sym.error + ' Down');
+  console.log(db.running ? sym.success + ' Up': sym.error + ' Down');
+  process.exit(db.running ? 0 : 1);
 });

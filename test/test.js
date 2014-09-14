@@ -21,6 +21,8 @@ it('Should recognise mongoDB is running - callback', function(done) {
 it('Should return running when run from bash', function(done) {
   exec('node ./bin/is-mongo', function(err, stdout, stderr) {
     assert.equal(stdout.indexOf('Up') > -1, true);
+  }).on('exit', function(status) {
+    assert.equal(status, 0);
     done();
   });
 });
