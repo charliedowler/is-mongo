@@ -15,7 +15,7 @@
     "mongo"
   ],
   "dependencies": {
-    "q": "~1.0.1",
+    "q": "~1.1.2",
     "log-symbols": "~1.0.0"
   },
   "devDependencies": {
